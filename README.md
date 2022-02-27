@@ -47,6 +47,17 @@ Don't forget to give the project a star! Thanks again!
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
+## Results
+prova prova
+
+| **Paper**             	| **Accuracy** 	|
+|-----------------------	|--------------	|
+| Shegokar and Sircar   	| 60.10        	|
+| Zeng et al.           	| 65.97        	|
+| Livingstone and Russo 	| 67.00        	|
+| Dias Issa et al.      	| 71.61        	|
+| This work             	| 80.11        	|
+
 <!-- CONTACT -->
 ## Contact
 
