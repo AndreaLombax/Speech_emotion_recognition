@@ -1,4 +1,6 @@
-<p align="center"># Speech emotion recognition</p>
+<p align="center">
+     <h2>Speech emotion recognition</h2>
+</p>
 In this work is proposed a speech emotion recognition model based on the extraction of four different features got from RAVDESS sound files and stacking the resulting matrices in a one-dimensional array by taking the mean values along the time axis. Then this array is fed into a 1-D CNN model as input.
 
 ## Project status
