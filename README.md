@@ -52,11 +52,11 @@ prova prova
 
 | **Paper**             	| **Accuracy** 	|
 |-----------------------	|--------------	|
-| [Shegokar and Sircar](https://ieeexplore.ieee.org/document/7843306)   	| 60.10        	|
-| Zeng et al.           	| 65.97        	|
-| Livingstone and Russo 	| 67.00        	|
-| Dias Issa et al.      	| 71.61        	|
-| This work             	| 80.11        	|
+| [Shegokar and Sircar](https://ieeexplore.ieee.org/document/7843306)   	| 60.10%        	|
+| [Zeng et al.](https://link.springer.com/article/10.1007/s11042-017-5539-3)           	| 65.97%        	|
+| [Livingstone and Russo](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0196391) 	| 67.00%        	|
+| [Dias Issa et al.](https://www.sciencedirect.com/science/article/pii/S1746809420300501)      	| 71.61%        	|
+| This work             	| 80.11%        	|
 
 <!-- CONTACT -->
 ## Contact
