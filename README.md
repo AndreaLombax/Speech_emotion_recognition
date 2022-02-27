@@ -10,7 +10,10 @@ In this work i propose a speech emotion recognition model based on the extractio
 
 - [Installation and usage](#installation-and-usage)
 - [Contributing](#contributing)
-- [Contact](#Contact)
+- [Dataset](#dataset)
+- [Results](#results)
+- [Contact](#contact)
+
 
 # Installation and usage
 
@@ -47,8 +50,16 @@ Don't forget to give the project a star! Thanks again!
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
+## Dataset
+The dataset used for this work is the [Ryerson Audio-Visual Database of Emotional Speech and Song](https://smartlaboratory.org/ravdess/) (RAVDESS). This dataset contains audio and visual recordings of 12 male and 12 female actors pronouncing English sentences with eight different emotional expressions. For this task, we utilize only speech samples from the database with the following eight different emotion classes: sad, happy, angry, calm, fearful, surprised, neutral and disgust.
+
+![Dataset samples distribution](imgs/dataset_samples_distribution.png)
+
+The overall number of utterances pronounced in audio files is 1440.
+
+
 ## Results
-prova prova
+The results of this work were compared with different documents using deep and non-deep approaches. Of course, all of these jobs also use the same data set, the RAVDESS.
 
 | **Paper**             	| **Accuracy** 	|
 |-----------------------	|--------------	|
