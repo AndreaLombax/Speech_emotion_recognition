@@ -52,7 +52,7 @@ prova prova
 
 | **Paper**             	| **Accuracy** 	|
 |-----------------------	|--------------	|
-| Shegokar and Sircar   	| 60.10        	|
+| [Shegokar and Sircar](https://ieeexplore.ieee.org/document/7843306)   	| 60.10        	|
 | Zeng et al.           	| 65.97        	|
 | Livingstone and Russo 	| 67.00        	|
 | Dias Issa et al.      	| 71.61        	|
