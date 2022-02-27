@@ -5,47 +5,51 @@ Finished but open to eventual improvement or updates.
 
 In this work i propose a speech emotion recognition model based on the extraction of four different features got from sound files and stackingthe resulting matrices in a one-dimensional array by taking the mean values along the time axis. Then this array is fed into a 1-D CNN model as input.
 
-*Read this in other languages: [English](README.EN.md).*
 
-## Table of contents
+# Table of contents
 
-- [Come iniziare](#come-iniziare)
-- [Come contribuire](#come-contribuire)
-- [Manutenzione](#manutenzione)
-- [Licenza](#licenza)
+- [Installation and usage](#installation-and-usage)
+- [Contributing](#contributing)
+- [Contact](#Contact)
 
-# Come iniziare
+# Installation and usage
 
-## Dipendenze
-## Come installare
+## For Colab
+You can run this code entirely on Colab without the need of libraries installation through pip.
 
-```js
-console.log("Questo è un esempio di blocco di codice")
-```
+## For Linux/Ubuntu/...
+All the libraries used are easy downloadable, but i recommend the creation of a conda environment thourgh the .yml file that you can find in the repo. It contains everything you need.
 
-## Documentazione
-### Link a documentazione esterna 
+1. Create the conda environment
+     ```sh
+     conda env create -f SEC_environment.yml
+     ```
+2. Activate the conda environment
+     ```sh
+     conda activate SEC_environment
+     ```
+1. For training and testing, just run:
+     ```sh
+     python train_and_test.py
+     ```
+The first line of the yml file sets the new environment's name, that's already set on SEC_environment.
 
-# Come contribuire
+## Contributing
 
-## Installare le dipendenze di sviluppo
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-## Struttura del progetto
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
+Don't forget to give the project a star! Thanks again!
 
-## Community
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-### Code of conduct
+<!-- CONTACT -->
+## Contact
 
-### Responsible Disclosure
+Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
 
-### Segnalazione bug e richieste di aiuto
-
-# Manutenzione 
-
-# Licenza 
-
-## Licenza generale 
-
-## Autori e Copyright
-
-## Licenze software dei componenti di terze parti
+Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
